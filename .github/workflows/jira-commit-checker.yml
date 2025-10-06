@@ -1,9 +1,7 @@
 name: Jira Commit Checker
 
-# Run on pull requests and manual triggers
-on:
-  pull_request:
-  workflow_dispatch:
+# Run on pull requests
+on: [pull_request]
 
 jobs:
   Jira_Commit_Checker:
