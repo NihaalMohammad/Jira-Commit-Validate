@@ -1,0 +1,6 @@
+This is a temporary test file for the Jira Commit Checker workflow.
+
+The workflow should validate that commit messages contain Jira ticket references
+like IO-2151, ABC-123, etc.
+
+This file will be used to test the GitHub Actions workflow functionality.
