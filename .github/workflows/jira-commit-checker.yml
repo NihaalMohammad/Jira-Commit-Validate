@@ -31,4 +31,4 @@ jobs:
         jira-username: ${{ secrets.JIRA_COMMIT_CHECKER_USERNAME }}
         jira-api-token: ${{ secrets.JIRA_COMMIT_CHECKER_API_TOKEN }}
         JIRA_URL: 'https://pocketfm-jira.atlassian.net'
-        BASE_BRANCH: ${{ env.BASE_BRANCH }}
+        BASE_BRANCH: ${{ github.event.pull_request.base.ref }}
